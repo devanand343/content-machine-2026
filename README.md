@@ -1,6 +1,6 @@
 # 🤖 Full Content Machine 2026
 
-> **An AI-powered, agentic content creation pipeline** that transforms topic lists into fully-researched, SEO-optimized, human-readable articles — with Human-in-the-Loop (HITL) approval built in.
+> **An AI-powered, agentic content creation pipeline** that transforms topic lists into fully-researched, SEO-optimized, human-readable articles — with Human-in-the-Loop (HITL) approval built in. Generates a 1,500-word SEO article in approximately 90 seconds (depending on LLM latency)
 
 ---
 
