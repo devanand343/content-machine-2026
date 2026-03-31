@@ -1,0 +1,109 @@
+# =============================================================================
+# Full Content Machine 2026 — .gitignore
+# =============================================================================
+
+# ── Python ────────────────────────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.pyd
+*.pyo
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+*.whl
+MANIFEST
+
+# ── Virtual Environments ──────────────────────────────────────────────────────
+.env
+.venv
+venv/
+env/
+ENV/
+.myenv/
+*.env.local
+*.env.development
+*.env.production
+
+# ── Environment Variables / Secrets ──────────────────────────────────────────
+.env
+.env.*
+secrets.toml
+*.pem
+*.key
+
+# ── Streamlit ─────────────────────────────────────────────────────────────────
+.streamlit/secrets.toml
+
+# ── Jupyter / IPython ────────────────────────────────────────────────────────
+.ipynb_checkpoints/
+*.ipynb
+
+# ── Vector Database (ChromaDB) ────────────────────────────────────────────────
+chroma_db/
+*.chroma
+*.db
+*.sqlite
+*.sqlite3
+
+# ── Exports / Generated Content ───────────────────────────────────────────────
+exports/
+*.html
+*.docx
+*.pdf
+output/
+
+# ── Data & Context Files ──────────────────────────────────────────────────────
+context_*.txt
+*.csv
+*.xlsx
+*.xls
+
+# ── Logs ─────────────────────────────────────────────────────────────────────
+*.log
+logs/
+log/
+
+# ── macOS ─────────────────────────────────────────────────────────────────────
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+.Spotlight-V100
+.Trashes
+
+# ── IDEs & Editors ────────────────────────────────────────────────────────────
+.vscode/
+.idea/
+*.swp
+*.swo
+*.sublime-project
+*.sublime-workspace
+.cursor/
+
+# ── Testing & Coverage ────────────────────────────────────────────────────────
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+coverage.xml
+*.cover
+
+# ── Type Checking ─────────────────────────────────────────────────────────────
+.mypy_cache/
+.dmypy.json
+dmypy.json
+.pytype/
+
+# ── Temporary Files ───────────────────────────────────────────────────────────
+*.tmp
+*.bak
+*.orig
+tmp/
+temp/
+
+# ── Implementation Plans (local notes) ───────────────────────────────────────
+implementation_plan.md
